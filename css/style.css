@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+	background: url(../images/bg.png);
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:980px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+::placeholder {
+  color:#D3CFCB;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 60px 210px;
+}
+header nav.left {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav.left h1 {
+	display: block;
+}
+header nav.left h1 img {
+	display: block;
+	width: 100%;
+}
+header nav.left ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 30px;
+}
+header nav.left ul li {
+
+}
+header nav.left ul li a {
+	margin-left: 60px;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	font-family: Circular-Std-Bold;
+	color: #fff;
+}
+header nav.left ul li a span {
+
+}
+header nav.left ul li a span img {
+
+}
+header nav.right {
+
+}
+header nav.right ul {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header nav.right ul li {
+
+}
+header nav.right ul li a {
+	margin-left: 50px;
+	font-size: 17px;
+	font-family: Circular-Std-Bold;
+	color: #fff;
+	letter-spacing: 0.5px;
+}
+header nav.right ul li a.button {
+	padding: 15px 20px;
+	background: #2dca73;
+	border-radius: 6px;
+}
+#spotlight {
+	padding-top: 200px;
+	margin-bottom: 400px;
+}
+#spotlight section.wrapper {
+	color: #fff;
+	text-align: center;
+	letter-spacing: 0.5px;
+	font-family: Circular-Std-Bold;
+	font-size: 64px;
+}
+#spotlight section.wrapper h1 {
+
+}
+#spotlight section.wrapper p {
+	color: #dfdfdf;
+	padding-top: 40px;
+	font-size: 26px;
+	letter-spacing: 0,3px;
+}
+#spotlight section.wrapper form {
+	background: #fff;
+	width: 92%;
+	margin: 75px auto;
+	height: 80px;
+	border-radius: 8px;
+	height: 100px;
+}
+#spotlight section.wrapper form input {
+	padding-top: 10px;
+	border: 1px solid #2dca73;
+	width: 70%;
+	font-size: 16px;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+#spotlight section.wrapper form button {
+	width: 20%;
+	padding: 15px 20px;
+	font-size: 16px;
+	background: #2dca73;
+	border-radius: 6px;
+	color: #fff;
+}
